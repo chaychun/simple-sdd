@@ -1,0 +1,11 @@
+{
+  "name": "simple-sdd",
+  "plugins": [
+    {
+      "name": "simple-sdd",
+      "source": "./",
+      "description": "A simple spec-driven development workflow. Three skills and a hook that turn every work request into a structured workflow: discuss first, write a spec, then execute from it.",
+      "version": "1.0.0"
+    }
+  ]
+}

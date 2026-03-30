@@ -22,6 +22,17 @@ Over time, `specs/` becomes your project's institutional memory — not just wha
 
 ## Install
 
+### As a Claude Code plugin
+
+```
+/plugin marketplace add chaychun/simple-sdd
+/plugin install simple-sdd@simple-sdd
+```
+
+Once installed, the skills are available as `/simple-sdd:brainstorm`, `/simple-sdd:implement-spec`, and `/simple-sdd:wrap-up`.
+
+### Manual install
+
 Copy the skills into your project's `.claude/skills/` directory:
 
 ```bash
@@ -30,10 +41,10 @@ mkdir -p .claude/skills
 cp -r path/to/simple-sdd/skills/* .claude/skills/
 ```
 
-For the hook, merge the contents of `hooks/session-start.json` into your project's `.claude/settings.json`. If you don't have one yet, copy it directly:
+For the hook, merge the contents of `hooks/hooks.json` into your project's `.claude/settings.json`. If you don't have one yet, copy it directly:
 
 ```bash
-cp hooks/session-start.json .claude/settings.json
+cp hooks/hooks.json .claude/settings.json
 ```
 
 If you already have a `.claude/settings.json`, add the `SessionStart` hook entry to your existing `hooks` object.

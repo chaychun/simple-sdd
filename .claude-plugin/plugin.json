@@ -1,0 +1,11 @@
+{
+  "name": "simple-sdd",
+  "version": "1.0.0",
+  "description": "A simple spec-driven development workflow. Three skills and a hook that turn every work request into a structured workflow: discuss first, write a spec, then execute from it.",
+  "author": {
+    "name": "chaychun"
+  },
+  "repository": "https://github.com/chaychun/simple-sdd",
+  "license": "MIT",
+  "keywords": ["workflow", "spec-driven", "sdd", "planning", "specs"]
+}
