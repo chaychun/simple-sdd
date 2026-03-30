@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"SessionStart\",\"additionalContext\":\"Spec-driven workflow: use the brainstorm skill for any work request before implementing — it guides a discussion and writes a spec to specs/ at the project root as the decision record. Use implement-spec to execute from an existing spec. Specs are the living source of truth for the project: update them when patterns change, link related ones, and read past Learnings before starting something new.\"}}'"
+          }
+        ]
+      }
+    ]
+  }
+}
